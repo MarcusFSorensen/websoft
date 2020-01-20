@@ -12,5 +12,6 @@ me as we have mainly been using Intellij or android studio when working with and
 Recently I have done some selfstudying on AWS where the focus have been on the solution architect point of view.
 So I have some experience with webservices from AWS and which features to use, such as load 
 balancing, domain names, dns, caching etc.
-For this course section my TIL is how to use Github page to create webpages and how to use Visual Studio Code.
+For this course section my TIL is how to use Github page to create webpages, how index files works and how
+to use Visual Studio Code.
 I also refreshed my skills in gitbash as I haven't used that in a long time. 
