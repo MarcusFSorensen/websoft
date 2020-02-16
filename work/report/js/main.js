@@ -15,13 +15,8 @@ var showSchools = function(){
         return response.json();
     })
     .then((myJson) => {
-        myJson.array.forEach(element => {
-            console.log(element);
-        });
+        
         console.log(myJson);
-        kristianstadSchools = myJson;
-        var table = document.getElementById("schools");
-
     });
 }
 
