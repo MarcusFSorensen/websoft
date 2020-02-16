@@ -4,7 +4,7 @@
 (function () {
     "use strict";
 
-    fetch('https://api.scb.se/UF0109/v2/skolenhetsregister/sv/kommun', {mode: 'no-cors'})
+    fetch('Kristianstad.json')
         .then((response) => {
             console.log(response);
             return response.json();
