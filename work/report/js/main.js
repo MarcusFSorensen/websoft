@@ -4,9 +4,9 @@
 (function () {
     "use strict";
 
-    fetch('Kristianstad.json')
+    fetch('Data/Kristianstad.json')
         .then((response) => {
-            console.log(response);
+    
             return response.json();
         })
         .then((myJson) => {
