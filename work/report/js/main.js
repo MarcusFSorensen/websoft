@@ -15,10 +15,13 @@ var showSchools = function(){
         return response.json();
     })
     .then((myJson) => {
+        myJson.array.forEach(element => {
+            console.log(element);
+        });
         console.log(myJson);
         kristianstadSchools = myJson;
-        $.each(kristianstadSchools, function(skolenhetskod, skolenhetsnam, kommunkod, perorgnr){
-            $("<tr><td>" + skolenhetskod + "</td><td>" + skolenhetsnam + "</td><td>" + kommunkod + "</td><td>" + perorgnr + "</td></tr>").appendTo("#schools")
-        });
+        var table = document.getElementById("schools");
+
     });
 }
+
