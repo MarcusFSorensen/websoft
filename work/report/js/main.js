@@ -19,6 +19,6 @@ var showSchools = function(){
         kristianstadSchools = myJson;
         $.each(kristianstadSchools, function(skolenhetskod, skolenhetsnam, kommunkod, perorgnr){
             $("<tr><td>" + skolenhetskod + "</td><td>" + skolenhetsnam + "</td><td>" + kommunkod + "</td><td>" + perorgnr + "</td></tr>").appendTo("#schools")
-        })
+        });
     });
 }
