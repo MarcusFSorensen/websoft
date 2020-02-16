@@ -4,15 +4,15 @@
 (function () {
     "use strict";
 
-    var showSchools = function(){
-        fetch('Data/Kristianstad.json')
-        .then((response) => {
-            return response.json();
-        })
-        .then((myJson) => {
-            console.log(myJson);
-        });
-    }
-
     console.log("All ready.");
 }());
+
+var showSchools = function(){
+    fetch('Data/Kristianstad.json')
+    .then((response) => {
+        return response.json();
+    })
+    .then((myJson) => {
+        console.log(myJson);
+    });
+}
