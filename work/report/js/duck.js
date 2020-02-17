@@ -16,7 +16,7 @@
     duck.addEventListener('click', respawnDuck);
 
     function respawnDuck(){
-        var newX = Math.floow(Math.random() * (areaWidth-duck.width)),
+        var newX = Math.floor(Math.random() * (areaWidth-duck.width)),
         newY = Math.floor(Math.random() * (areaHeight-duck.height));
     
         duck.style.left = newX+'px';
