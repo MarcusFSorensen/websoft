@@ -31,7 +31,7 @@
             table.appendChild(tr);
         })
     }
-}());
+})();
 
 
 
