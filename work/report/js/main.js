@@ -22,7 +22,7 @@ var fetchSchools = function(){
 
 var showSchools = function(data){
     var table = document.getElementById('schools');
-    data.forEach(function(object){
+    data.forEach(object =>{
         var tr = document.createElement('tr');
         tr.innerHTML = '<td>' + object.Skolenhetskod + '</td>' +
         '<td>' + object.Skolenhetsnamn + '</td>' +
