@@ -23,7 +23,5 @@
         duck.style.top = newY+'px';
         area.appendChild(duck);
     }
-
     respawnDuck();
-
 })();
