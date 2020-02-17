@@ -14,10 +14,9 @@ var fetchSchools = function(){
         console.log(response.json);
         return response.json();
     })
-    .then((myJson) => {
-        console.log(myJson);
-        kristianstadSchools = myJson;
-        showSchools(kristianstadSchools);
+    .then((data) => {
+        console.log(data);
+        showSchools(data);
     });
 }
 
