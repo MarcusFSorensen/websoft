@@ -7,12 +7,18 @@
     console.log("All ready.");
 }());
 
-var kristianstadSchools;
+var kristianstadSchools = [{"Skolenhetskod": "10983605",
+"Skolenhetsnamn": "SFI 1",
+"Kommunkod": "1290",
+"PeOrgNr": "2120000951"}, {"Skolenhetskod": "12725451",
+"Skolenhetsnamn": "Fjälkinge skola L",
+"Kommunkod": "1290",
+"PeOrgNr": "2120000951"}];
 
 var fetchSchools = function(){
     fetch('Data/Kristianstad.json')
     .then((response) => {
-        showSchools(response.json);
+        showSchools(kristianstadSchools);
         return response.json();
     })
     .then((myJson) => {
