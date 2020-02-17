@@ -11,6 +11,7 @@ var kristianstadSchools;
 var fetchSchools = function(){
     fetch('Data/Kristianstad.json')
     .then((response) => {
+        console.log(response.json);
         return response.json();
     })
     .then((myJson) => {
