@@ -8,7 +8,7 @@
     
 })();
 
-const tablebody = document.getElementById('schools');
+const tablebody = document.getElementById('teabody');
 
 var fetchSchools = function(){
     fetch('Data/Kristianstad.json')
@@ -30,7 +30,7 @@ var showSchools = function(data){
         '<td>' + object.Skolenhetsnamn + '</td>' +
         '<td>' + object.Kommunkod + '</td>' +
         '<td>' + object.PeOrgNr + '</td>';
-        table.appendChild(tr);
+        tablebody.appendChild(tr);
     })
 }
 
