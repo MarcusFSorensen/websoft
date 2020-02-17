@@ -25,11 +25,11 @@ var kristianstadSchools = [{"Skolenhetskod": "10983605",
 var fetchSchools = function(){
     fetch('Data/Kristianstad.json')
     .then((response) => {
-        showSchools(kristianstadSchools);
         return response.json();
     })
     .then((myJson) => {
         console.log(myJson);
+        showSchools(kristianstadSchools);
     });
 }
 
