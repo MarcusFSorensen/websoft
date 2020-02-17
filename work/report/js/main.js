@@ -11,12 +11,11 @@ var kristianstadSchools;
 var fetchSchools = function(){
     fetch('Data/Kristianstad.json')
     .then((response) => {
-        console.log(response.json);
         return response.json();
     })
     .then((data) => {
         console.log(data);
-        showSchools(data);
+        showSchools(data.Skolenheter);
     });
 }
 
