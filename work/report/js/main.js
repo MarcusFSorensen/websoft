@@ -4,6 +4,13 @@
 (function () {
     "use strict";
 
+    var kristianstadSchools = [{"Skolenhetskod": "10983605",
+"Skolenhetsnamn": "SFI 1",
+"Kommunkod": "1290",
+"PeOrgNr": "2120000951"}, {"Skolenhetskod": "12725451",
+"Skolenhetsnamn": "Fjälkinge skola L",
+"Kommunkod": "1290",
+"PeOrgNr": "2120000951"}];
     console.log("All ready.");
 }());
 
