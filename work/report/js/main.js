@@ -15,8 +15,8 @@ var showSchools = function(){
         return response.json();
     })
     .then((myJson) => {
-        
-        console.log(myJson);
+        kristianstadSchools = myJson;
+        console.log(kristianstadSchools);
     });
 }
 
