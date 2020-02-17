@@ -24,4 +24,6 @@
         area.appendChild(duck);
     }
 
+    respawnDuck();
+
 })();
