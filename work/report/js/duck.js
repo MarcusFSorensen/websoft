@@ -15,6 +15,8 @@
     duck.style.zIndex = 10000;
     duck.addEventListener('click', respawnDuck);
 
+    setInterval(respawnDuck, 5000);
+
     function respawnDuck(){
         var newX = Math.floor(Math.random() * (areaWidth-duck.width)),
         newY = Math.floor(Math.random() * (areaHeight-duck.height));
