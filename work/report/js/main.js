@@ -18,8 +18,10 @@ var fetchSchools = function(){
     .then((data) => {
         console.log(data);
         showSchools(data.Skolenheter);
+    
     });
 }
+
 
 var showSchools = function(data){
     //var table = document.getElementById('schools');

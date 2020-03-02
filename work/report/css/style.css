@@ -35,8 +35,6 @@ li a:hover {
     background-color: #111;
 }
 
-tbody {
-    display: table-row-group;
-    vertical-align: middle;
-    border-color: #333;
+table, th, td {
+    border: 1px solid black;
 }
