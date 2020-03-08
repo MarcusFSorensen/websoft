@@ -1,0 +1,96 @@
+.base {
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.3s linear, opacity 0.s linear;
+    margin: 20% 38%;
+    padding: 3px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+    width: 180px;
+    height: 120px;
+    border-radius: 2px;
+    background: white;
+    transform: scale(2.2);
+}
+
+input[type=button] {
+    background-color: #4CAF50;
+    display: inline-block;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.base:hover {
+    transition: all ease-in 0.2s;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.8);
+    transform: scale(2.3);
+}
+
+/* Sweden */
+.sweden .main {
+    width: 180px;
+    height: 120px;
+    background:  #2f54bd;
+    overflow: hidden;
+}
+
+.sweden .main:before, .sweden .main:after {
+    width: 180px;
+    height: 24px;
+    background: yellow;
+    margin: 48px 0px;
+}
+
+.sweden .main:after {
+    transform: rotate(90deg);
+    margin-left: -26px;
+}
+
+/* denmark */
+.denmark .main {
+    width: 180px;
+    height: 120px;
+    background:  #d80e0e;
+    overflow: hidden;
+}
+
+.denmark .main:before, .denmark .main:after {
+    width: 180px;
+    height: 24px;
+    background: white;
+    margin: 48px 0px;
+}
+
+.denmark .main:after {
+    transform: rotate(90deg);
+    margin-left: -26px;
+}
+
+/* Poland */
+
+.poland .main {
+    width: 180px;
+    height: 120px;
+    background:  #d80e0e;
+    overflow: hidden;
+}
+
+.poland .main:after {
+    width: 180px;
+    height: 60px;
+    background: white;
+    margin: 0px 0px;
+}
+
+
+
+div, div:after, div:before {
+    position: absolute;
+    content: '';
+}
