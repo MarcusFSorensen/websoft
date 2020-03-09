@@ -23,18 +23,6 @@
             '<td>' + sixth + '</td>' +
             '<td>' + seventh + '</td>';
             tablebody.appendChild(tr);
-        /*data.forEach(object =>{
-            var tr = document.createElement('tr');
-            tr.innerHTML = '<td>' + first + '</td>' +
-            '<td>' + second + '</td>' +
-            '<td>' + third + '</td>' +
-            '<td>' + forth + '</td>' +
-            '<td>' + fifth + '</td>' +
-            '<td>' + fifth + '</td>' +
-            '<td>' + sixth + '</td>' +
-            '<td>' + seventh + '</td>';
-            tablebody.appendChild(tr);
-        })*/
     }
 
     window.onload = function(){
