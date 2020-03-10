@@ -8,7 +8,6 @@ require "src/functions.php";
 // Get incoming values
 $search = $_GET["search"] ?? null;
 $like = "%$search%";
-//var_dump($_GET);
 
 if ($search) {
     // Connect to the database
@@ -16,6 +15,14 @@ if ($search) {
 
     // Prepare and execute the SQL statement
     $sql = <<<EOD
+    SELECT
+    *
+    FROM tech
+    WHERE
+    id = ?
+    OR label LIKE ?
+    OR type LIKE ?
+;
     EOD;
     $stmt = $db->prepare($sql);
     $stmt->execute([$search, $like, $like]);
