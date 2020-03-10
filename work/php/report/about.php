@@ -7,15 +7,10 @@
     <link rel="icon" href="favicon.ico">
 </head>
 
+
 <body>
 
-    <ul>
-        <li><a href="me.html">Me</a></li>
-        <li><a href="report.html">Report</a></li> 
-        <li><a href="about.html">About</a></li>
-        <li><a href="schools.html">Schools</a></li>
-        <li><a href="flag.html">Flags</a></li>
-    </ul>
+<?php include "header.php"; ?>
 
 
 
@@ -34,10 +29,7 @@
 
 </article>
 
-<footer>
-    <hr>
-    <p>Provide a nice footer to to this page.</p>
-</footer>
+<?php include "footer.php"; ?>
 
 <script type="text/javascript" src="js/main.js"></script>
 <script src="js/duck.js"></script> 

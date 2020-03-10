@@ -4,6 +4,9 @@
 $str = "Hello from the PHP world";
 echo $str;
 
+include 'header.php';
+
+
 for ($i = 1; $i < 9; $i++) {
     $str .= $i . ", ";
 }

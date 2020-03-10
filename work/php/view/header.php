@@ -1,6 +1,9 @@
-<head>
-    <meta charset="utf-8">
-    <title>This is php</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="favicon.ico">
-</head>
+<h1>
+    Webpage about me and my webdev work
+</h1>
+<ul>
+    <li><a href="me.html">Me</a></li>
+    <li><a href="report.html">Report</a></li> 
+    <li><a href="about.html">About</a></li>
+    <li><a href="schools.html">Schools</a></li>
+</ul>

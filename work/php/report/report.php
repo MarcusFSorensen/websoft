@@ -9,16 +9,7 @@
 
 <body>
 
-
-
-<ul>
-    <li><a href="me.html">Me</a></li>
-    <li><a href="report.html">Report</a></li> 
-    <li><a href="about.html">About</a></li>
-    <li><a href="schools.html">Schools</a></li>
-    <li><a href="flag.html">Flags</a></li>
-</ul>
-
+<?php include "header.php"; ?>
 
 
 <article>
@@ -130,10 +121,7 @@
 <p>Here is the text for this section.</p>
 </section>
 
-<footer>
-    <hr>
-    <p>Provide a nice footer to your report.</p>
-</footer>
+<?php include "footer.php"; ?>
 
 </article>
 

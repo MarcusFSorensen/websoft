@@ -1,5 +1,3 @@
-<!doctype html>
-<html lang="en">
 <head>
     <meta charset="utf-8">
     <title>Presentation of my self in the course XXX</title>
@@ -9,19 +7,7 @@
 
 <body>
 
-<!--
-Comments are written as HTML style.
--->
-
-
-<ul>
-    <li><a href="me.html">Me</a></li>
-    <li><a href="report.html">Report</a></li> 
-    <li><a href="about.html">About</a></li>
-    <li><a href="schools.html">Schools</a></li>
-</ul>
-    
-
+<?php include "header.php"; ?>
 
 
 <article>
@@ -41,11 +27,8 @@ Comments are written as HTML style.
 
 </article>
 
-<footer>
-    <hr>
-    <p>Provide a nice footer to to this page.</p>
-</footer>
 
+<?php include "footer.php"; ?>
 
 
 <script type="text/javascript" src="js/main.js"></script>
