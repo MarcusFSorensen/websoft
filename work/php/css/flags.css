@@ -1,96 +1,95 @@
-.base {
-    display: block;
-    visibility: hidden;
-    opacity: 0;
-    transition: visibility 0.3s linear, opacity 0.s linear;
-    margin: 20% 38%;
-    padding: 3px;
-    box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
-    width: 180px;
-    height: 120px;
-    border-radius: 2px;
-    background: white;
-    transform: scale(2.2);
+
+div.flag a{
+    
+    display: inline;
 }
 
-input[type=button] {
-    background-color: #4CAF50;
-    display: inline-block;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
+#content {
+    border: 1px solid black;
+    background-color: #fefeee;
+    padding: 2em;
+    margin: 0 auto;
+    height: 700px;
+    width: 800px;
+    border-radius: 30px;
 }
 
-.base:hover {
-    transition: all ease-in 0.2s;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.8);
-    transform: scale(2.3);
+.danishFlag, .swedishFlag {
+    position: relative;
+    width: 300px;
+    height: 200px;
 }
 
-/* Sweden */
-.sweden .main {
-    width: 180px;
-    height: 120px;
-    background:  #2f54bd;
-    overflow: hidden;
+/*denmark*/
+.denmark, .norway {
+    background-color: #C60C30;
 }
 
-.sweden .main:before, .sweden .main:after {
-    width: 180px;
-    height: 24px;
-    background: yellow;
-    margin: 48px 0px;
-}
-
-.sweden .main:after {
-    transform: rotate(90deg);
-    margin-left: -26px;
-}
-
-/* denmark */
-.denmark .main {
-    width: 180px;
-    height: 120px;
-    background:  #d80e0e;
-    overflow: hidden;
-}
-
-.denmark .main:before, .denmark .main:after {
-    width: 180px;
-    height: 24px;
-    background: white;
-    margin: 48px 0px;
-}
-
-.denmark .main:after {
-    transform: rotate(90deg);
-    margin-left: -26px;
-}
-
-/* Poland */
-
-.poland .main {
-    width: 180px;
-    height: 120px;
-    background:  #d80e0e;
-    overflow: hidden;
-}
-
-.poland .main:after {
-    width: 180px;
-    height: 60px;
-    background: white;
-    margin: 0px 0px;
-}
-
-
-
-div, div:after, div:before {
+/*attributes they share*/
+.denmark .part1, .sweden .part1, .norway .part1 {
     position: absolute;
-    content: '';
+    top: 0;
+    left: 75px;
+    width: 30px;
+    height: 200px;
+    background-color: white;
 }
+
+.denmark .part2, .sweden .part2, .norway .part2 {
+    position: absolute;
+    top: 85px;
+    left: 0px;
+    width: 300px;
+    height: 30px;
+    background-color: white;
+}
+
+/*sweden*/
+.sweden {
+    background-color: #004B87;
+}
+
+.sweden .part1 {
+    
+    background-color: #FFCD00;
+}
+
+.sweden .part2 {
+    
+    background-color: #FFCD00;
+}
+
+/*Norway*/
+
+.norway .part1 {
+    left: 80px;
+    width: 40px;
+    height: 200px;
+    background-color: white;
+}
+
+.norway .part2 {
+    top: 80px;
+    width: 300px;
+    height: 40px;
+    background-color: white;
+}
+.norway .part3 {
+    position: absolute;
+    top: 0;
+    left: 90px;
+    width: 20px;
+    height: 200px;
+    background-color: #003087;
+}
+
+.norway .part4 {
+    position: absolute;
+    top: 90px;
+    left: 0px;
+    width: 300px;
+    height: 20px;
+    background-color: #003087;
+}
+
+
