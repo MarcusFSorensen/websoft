@@ -18,7 +18,8 @@ footer {
 body {
     margin: 8px auto;
     background: #fff;
-    width: 700px;
+    height: 900px;
+    width: 100%;
 }
 
 ul {

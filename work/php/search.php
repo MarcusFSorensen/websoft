@@ -22,7 +22,7 @@ if ($search) {
     id = ?
     OR label LIKE ?
     OR type LIKE ?
-;
+    ;
     EOD;
     $stmt = $db->prepare($sql);
     $stmt->execute([$search, $like, $like]);
@@ -32,9 +32,17 @@ if ($search) {
 }
 
 ?>
+<?php
 
-<?php include "header.php";?>
+$PageTitle="Report";
+
+include "view/header.php";
+include "view/menu.php";
+
+?> 
+<div class="content">
 <h1>Search the database</h1>
+
 
 <form>
     <p>
@@ -63,4 +71,6 @@ if ($search) {
 
     </table>
 <?php endif; ?>
+</div>
+<?php include "view/footer.php";?>
 
