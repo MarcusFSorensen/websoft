@@ -9,3 +9,4 @@
     <li><a href="update.php">Update</a></li>
 </ul>
 <div class="content">
+    <div class="box">
