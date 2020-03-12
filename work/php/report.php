@@ -131,50 +131,6 @@ include "view/menu.php";
   <p></p>
 </div>
 
-<!--
-
-
-
-
-
-<section>
-<h2>S05</h2>
-<p>At the moment I do not like PHP very much. I feel like it is a bit clunky to me compared to using js. When html and PHP is being used in the same document it can become
-    A little confusing to me. But ones I got a hang of it I really liked it. I liked how I could organize my code into headers and footers and a menu and that way make building
-    a new page and editing much easier To some extent PHP reminds me of java. This is mostly when it came to using prepared statement as it feels similar to java in that sense. Other than that
-    it felt a bit foreign especially with the big use of $. I felt like this assignment was much harder than others. This was not because of the coding part but because I had
-    alot of trouble with getting xammp setup and access to mysql. I also had a problem with accessing my mysql from the php file but found out it was because my sever was version
-    8+ and was using SHa-256 authentication which php didn't support. for the coding part I took help from looking at your code examples and reused the majority of your code. Atm I 
-    aimed for a 4 but will come back to improve it if I have time before friday. My TIL is how to use  PHP to do CRUD on a database and how to set up xampp properly and use mysql through xampp.
-</p>
-</section>
-
-<section>
-<h2>S06</h2>
-<p>Here is the text for this section.</p>
-</section>
-
-<section>
-<h2>S07</h2>
-<p>Here is the text for this section.</p>
-</section>
-
-<section>
-<h2>S08</h2>
-<p>Here is the text for this section.</p>
-</section>
-
-<section>
-<h2>S09</h2>
-<p>Here is the text for this section.</p>
-</section>
-
-<section>
-<h2>S10</h2>
-<p>Here is the text for this section.</p>
-</section>-->
-
-
 </div>
 
 
