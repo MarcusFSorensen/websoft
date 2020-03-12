@@ -10,9 +10,9 @@ namespace webapp.Pages
 {
     public class AboutModel : PageModel
     {
-        private readonly ILogger<AboutModel> _logger;
+        private readonly ILogger<IndexModel> _logger;
 
-        public AboutModel(ILogger<AboutModel> logger)
+        public AboutModel(ILogger<IndexModel> logger)
         {
             _logger = logger;
         }
