@@ -14,6 +14,7 @@ router.get("/lotto-json", (req, res) => {
     for(var i = 0; i<7; i++){
         var number = Math.floor(Math.random()*35)+1
         if(lottolist.includes(number)){
+            i--;
             continue
         }
         lottolist.push(number);

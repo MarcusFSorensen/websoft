@@ -18,9 +18,13 @@ namespace webapp.Controllers
         }
 
         [HttpGet]
-        public Account Get(int number)
+        public string Get(int number)
         {
-            return AccountService.GetAccount(number);
+            var account = AccountService.GetAccount(number);
+            if(account==null){
+                return "{'Succes' : 'error', 'message' : 'Unable to find requested number in database'}";
+            }
+            return account.ToString();
         }
     }
 }
