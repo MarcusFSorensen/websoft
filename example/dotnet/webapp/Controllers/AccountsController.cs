@@ -19,7 +19,11 @@ namespace webapp.Controllers
         [HttpGet]
         public IEnumerable<Account> Get()
         {
-            return AccountService.GetAccounts();
+            var account =  AccountService.GetAccounts();
+            if(account==null){
+                 
+            }
+            return account;
         }
     }
 }

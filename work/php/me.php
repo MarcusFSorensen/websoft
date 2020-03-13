@@ -7,7 +7,7 @@ include "view/menu.php";
 
 ?> 
 
-<div class="content">
+
     <h1>My report page in the course DA377B</h1>
 
     <p><img src="img/myself.jpg" width="300" alt="Me on an image"></p>
@@ -20,7 +20,7 @@ include "view/menu.php";
     <p>Computer has always been an interest of mine which was mainly due to video games when I was younger. I wasn't until a few years ago that my interest for programming was peaked because a friend of mine was attending the IT-university of Copenhagen and was showing off some of his new skills.</p>
 
     <p>Beside badminton and programming I don't have many hobbies, but I do enjoy reading books or play DnD with my friends from time to time</p>
-</div>
+
 
 
 

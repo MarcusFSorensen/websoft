@@ -14,7 +14,8 @@ namespace webapp.Controllers
             AccountService = accountService;
         }
 
-        public JsonFileAccountService AccountService { get; }
+        public JsonFileAccountService AccountService { get; 
+        }
 
         [HttpGet]
         public Account Get(int number)
