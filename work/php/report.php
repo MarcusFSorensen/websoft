@@ -132,7 +132,7 @@ include "view/menu.php";
 <button type="button" class="collapsible">Open a07 report</button>
 <div class=report-content>
   <p>.NET is a software framework build by microsoft and which is using c# for development together with other microsoft 
-    languages such as visual basic. The framework has many inbuildt functionalities and pre build methods. when using .NET for
+    languages such as visual basic. The framework has many inbuilt functionalities and pre build methods. when using .NET for
     development of an web application it is a very smart framework since it already has very clear and easy ways 
     to create things like routes and your cruds. routes is simply named after controller names and then by all of their classes.
     or CRUD opperations it is possible to use scaffolding and make the framework build not only your database but also alot of cruds reading and writing to it. 
@@ -184,7 +184,7 @@ include "view/menu.php";
     is that we should start logging information. At the moment we are barely logging. and if that was on a launched website we would have a very slight chance 
     to notice if someone with malicious intent was doing something on our application.<p>
 <p>
-    For an guideline for essential secrutiy measures I would mention all the above. Make sure to sanetize your user inputs or 
+    For an guideline for essential security measures I would mention all the above. Make sure to sanetize your user inputs or 
     on the server side check if the input seems malicious. This is especially very important when those inputs is gonna be inserted into 
     SQL statements. use autherization tokens so that someone won't be able to get into others profiles by just changing the URL. It is also important to not send data like password or any vulnerable credentials in the URL since it will be easier for hackers to access it then. Other than that I would recommend 
     doing a threat modeling to get a better overview of where in your whole system the threats lie. This way you will be able to plan ahead and plan if you will need a proxy server 
