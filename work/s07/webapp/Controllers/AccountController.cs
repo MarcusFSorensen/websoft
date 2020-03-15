@@ -22,7 +22,7 @@ namespace webapp.Controllers
         {
             var account = AccountService.GetAccount(number);
             if(account==null){
-                return "{'Succes' : 'error', 'message' : 'Unable to find requested number in database'}";
+                
             }
             return account.ToString();
         }

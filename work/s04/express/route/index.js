@@ -34,7 +34,10 @@ router.get("/lotto-json", (req, res) => {
             correct++;
         }
     });
-    res.send(numbers + " You had " + correct + " Correct");
+    
+    let data = {};
+    data = JSON.stringify({row: numbers, correct: correct});
+    res.send(data);
 })
 
 module.exports = router;
